@@ -66,98 +66,86 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	width: 880px;
-	/* border: 10px dashed black; */
-	margin: auto;
+  width: 880px;
+  margin: auto;
 }
 
 header {
-	/* border: 5px dashed orange; */
-	padding: 20px 20px 20px;
+  padding: 20px 0 20px;
   display: flex;
+  align-items: stretch;
+  width: 100%;
 }
 
 nav {
-	/*border: 3px solid red; */
-	width: 75%;
+  width: 80%;
   margin-top: 15px;
 }
+
 nav a {
-	color: grey;
-	text-decoration: none;
-	padding: 0 25px 0px;
-	/* border: 3px solid blue; */
+  color: grey;
+  text-decoration: none;
+  padding: 0px 25px 0px;
 }
 
-.intro-container {
-	text-align: center;
-  display: flex;
-  margin-bottom: 70px;
-  margin-top: 50px;
-	/* border: 3px solid green; */
-}
-.intro  {
-	/* border: 4px dashed red; */
-	width: 450px;
-  margin-top: 75px;
-	text-align: center;
-	padding: 0px 0px 40px;
+.logo {
+  margin-left: 35px;
 }
 
- .intro h1 {
-	font-size: 50pt;
-	/* border: 1px dashed red; */
-}  
-
-.intro button {
-	padding: 5px 40px 5px;
-	border: 1px solid black;
-	font-family: 'Titillium Web';
+.services-header-img {
+  display: block;
+  width: 100%;
 }
 
-header p {
-	text-align: center;
-	border: 1px solid black;
-	width: 150px;
-}
-.codeimg {
-	width: 30%;
-	height: 30%;
-	/*TRBL*/
-	padding: 0 20px 20px 100px;
+h2 {
+  font-size: 150%;
 }
 
 .top-content {
-	border-top: 1px solid black;
-	padding: 30px 0 30px;
+  border-bottom: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.middle-content {
+  padding-top: 40px;
   display: flex;
-}
-
-.top-content.item {
-	/* border: 1px solid red; */
-}
-
-.middle-img {
-	display: block;
-	width: 100%;
-}
-
-.bottom-content {
-	border-bottom: 1px solid black;
-	padding: 20px 5px 30px;
-  display: flex;
-  align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  border-bottom: 3px solid black;
 }
 
-.bottom-content-item {
-	justify-content: space-around;
-	/* border: 1px solid red; */
+.middle-content-item {
+  margin: 15px;
+  border: 1px solid black;
+  width: 46%;
+  padding: 20px;
+  background-color: whitesmoke;
+  justify-content: space-evenly;
 }
 
-.contact-content {
-	margin-top: 30px;
+button {
+  padding: 5px 30px 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: "Titillium Web";
+  margin-top: 15px;
 }
+
+.lower-content {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lower-content-item {
+  margin: 15px;
+}
+
 footer p {
-	text-align: center;
+  text-align: center;
+  padding-bottom: 40px;
 }
